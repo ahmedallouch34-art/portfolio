@@ -1,12 +1,12 @@
 :root {
   --bg-color: #f8f6ff;
-  --card-bg: rgba(255, 255, 255, 0.42);
+  --card-bg: rgba(255, 255, 255, 0.55);
   --text-color: #2d2a32;
   --muted-text: #5f596b;
   --accent-color: #b692f6;
   --accent-hover: #9f7aea;
   --accent-soft: rgba(239, 231, 255, 0.68);
-  --nav-bg: rgba(255, 255, 255, 0.32);
+  --nav-bg: rgba(255, 255, 255, 0.45);
   --border-color: rgba(182, 146, 246, 0.22);
   --shadow-color: rgba(31, 26, 51, 0.1);
 }
@@ -40,15 +40,18 @@ body,
 body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
+  background: radial-gradient(circle at 20% 80%, #7f8cff 0%, transparent 40%),
+              radial-gradient(circle at 80% 20%, #ffb3d1 0%, transparent 40%),
+              radial-gradient(circle at 50% 50%, #ffffff 0%, #f4f6ff 100%);
   color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
   min-height: 100vh;
+  transition: background 0.4s ease, color 0.3s ease;
 }
 
 body.dark {
-  background:
-    linear-gradient(rgba(18, 17, 26, 0.72), rgba(18, 17, 26, 0.72)),
-    url("./assets/bg.jpg") center center / cover no-repeat fixed;
+  background: radial-gradient(circle at 20% 80%, #4c56d7 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, #b86b8f 0%, transparent 50%),
+              radial-gradient(circle at 50% 50%, #12111a 0%, #1a1825 100%);
 }
 
 img {
@@ -97,7 +100,7 @@ nav {
   align-items: center;
   padding: 16px 40px;
   background: var(--nav-bg);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
 }
 
