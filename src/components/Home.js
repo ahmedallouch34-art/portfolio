@@ -23,10 +23,10 @@ function Home() {
           </div>
 
           <p>
-            I build responsive and modern web interfaces with React, clean UI,
-            and smooth user experiences. I am currently looking for an
-            internship opportunity to grow as a developer and contribute to real
-            projects.
+          Computer Science student crafting
+          modern web experiences and intelligent 
+          solutions with machine learning — focused on building, 
+          learning, and growing through real-world projects.
           </p>
 
           <div className="hero-buttons">
