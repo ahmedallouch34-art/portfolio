@@ -4,7 +4,7 @@ const projectData = [
   {
     id: 1,
     title: "Portfolio Website",
-    image: "/project1.png",
+    image: process.env.PUBLIC_URL + "/project1.png",
     description:
       "A responsive personal portfolio built with React, smooth scrolling, animations, and dark mode.",
     tech: ["React", "CSS", "JavaScript"],
@@ -14,7 +14,7 @@ const projectData = [
   {
     id: 2,
     title: "Quiz Android App",
-    image: "/project2.png",
+    image: process.env.PUBLIC_URL + "/project2.png",
     description:
       "A quiz application with score tracking, difficulty levels, timer, and results screen.",
     tech: ["Java", "Android Studio", "XML"],
@@ -24,7 +24,7 @@ const projectData = [
   {
     id: 3,
     title: "Stock Manager App",
-    image: "/project3.png",
+    image: process.env.PUBLIC_URL + "/project3.png",
     description:
       "A desktop inventory manager with product handling, file persistence, filters, and export features.",
     tech: ["C#", ".NET", "Windows Forms"],

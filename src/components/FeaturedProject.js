@@ -10,7 +10,10 @@ function FeaturedProject() {
 
       <div className="featured-card">
         <div className="featured-image">
-          <img src="/project1.png" alt="Featured project preview" />
+          <img
+  src={process.env.PUBLIC_URL + "/project1.png"}
+  alt="Featured project preview"
+/>
         </div>
 
         <div className="featured-content">

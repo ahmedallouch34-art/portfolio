@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="logo">Ahmed</div>
+      <div className="logo">Ahmed Allouch</div>
 
       <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
         {menuOpen ? "✕" : "☰"}

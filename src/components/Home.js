@@ -2,18 +2,19 @@ import React from "react";
 import { ReactTyped } from "react-typed";
 
 function Home() {
+  const cvFile = process.env.PUBLIC_URL + "/cv.pdf";
   return (
     <section className="hero" id="home">
       <div className="hero-container">
         <div className="hero-text">
-          <h1>Hi, I&apos;m Ahmed 👋</h1>
+          <h1>Hi, I&apos;m Ahmed Allouch 👋</h1>
 
           <div className="typing-text">
             <ReactTyped
               strings={[
-                "I am a Web Developer",
-                "I build React Applications",
-                "I love creating modern UI",
+                "I am a junior Web Developer",
+                "handball national reefree",
+                "leader in the tunisien scouts",
               ]}
               typeSpeed={60}
               backSpeed={40}
@@ -33,23 +34,23 @@ function Home() {
               View Projects
             </a>
 
-            <a href="/cv.pdf" download className="btn secondary-btn">
-              Download CV
-            </a>
+<a href={cvFile} download className="btn secondary-btn">
+  Download CV
+</a>
 
-            <a
-              href="/cv.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="btn secondary-btn"
-            >
-              Preview Resume
-            </a>
+<a
+  href={cvFile}
+  target="_blank"
+  rel="noreferrer"
+  className="btn secondary-btn"
+>
+  Preview Resume
+</a>
           </div>
 
           <div className="social-buttons">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/ahmedallouch34-art"
               target="_blank"
               rel="noreferrer"
               className="icon-btn"
@@ -58,7 +59,7 @@ function Home() {
             </a>
 
             <a
-              href="https://linkedin.com/in/yourlinkedin"
+              href="https://www.linkedin.com/in/ahmed-allouch-827252257/"
               target="_blank"
               rel="noreferrer"
               className="icon-btn"
@@ -69,7 +70,7 @@ function Home() {
         </div>
 
         <div className="hero-image">
-          <img src="/me.jpeg" alt="Ahmed" />
+          <img src={process.env.PUBLIC_URL + "/me.jpeg"} alt="Ahmed" />
         </div>
       </div>
     </section>

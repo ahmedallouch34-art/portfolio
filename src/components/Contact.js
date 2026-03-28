@@ -2,8 +2,7 @@ import React, { useState } from "react";
 
 function Contact() {
   const [copied, setCopied] = useState(false);
-  const email = "ahmed@example.com";
-
+  const email = "ahmedallouch34@gmail.com";
   const handleCopyEmail = async () => {
     try {
       await navigator.clipboard.writeText(email);
@@ -22,12 +21,12 @@ function Contact() {
       <div className="section-header">
         <h2>Contact</h2>
         <p>I’m available for internship opportunities and collaborations.</p>
+        <p>Feel free to cantact me at anytime.</p>
       </div>
 
       <div className="contact-card">
         <h3>Let’s connect</h3>
         <p>Email: {email}</p>
-
         <div className="contact-buttons">
           <a href={`mailto:${email}`} className="btn primary-btn">
             Send Email
