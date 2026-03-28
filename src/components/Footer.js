@@ -18,14 +18,14 @@ function Footer() {
 
         <div className="footer-socials">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ahmedallouch23-art"
             target="_blank"
             rel="noreferrer"
           >
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://linkedin.com/in/ahmed-allouch-827252257/"
             target="_blank"
             rel="noreferrer"
           >

@@ -39,14 +39,14 @@ function Contact() {
 
         <div className="contact-links">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ahmedallouch34-art"
             target="_blank"
             rel="noreferrer"
           >
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://linkedin.com/in/ahmed-allouch-827252257/"
             target="_blank"
             rel="noreferrer"
           >
